@@ -1,0 +1,33 @@
+.terms-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+   
+    border-radius: 5px;
+}
+
+.terms-container h2 {
+    color: #333;
+    text-align: center;
+}
+
+.terms-container p {
+    margin-bottom: 10px;
+}
+
+.terms-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.terms-container ul li {
+    margin-bottom: 10px;
+}
+
+.terms-container ul li strong {
+    font-weight: bold;
+}
+
+.terms-container p:last-child {
+    margin-top: 20px;
+}
