@@ -1,0 +1,49 @@
+.loan-form-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.step {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.step h2 {
+    color: #333;
+}
+
+.step input[type="text"],
+.step input[type="email"],
+.step input[type="tel"],
+.step input[type="number"],
+.step textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.step input[type="date"] {
+    width: calc(100% - 22px); /* Adjust for date input */
+}
+
+.step input[type="file"] {
+    margin-top: 10px;
+}
+
+.step button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.step button:hover {
+    background-color: #0056b3;
+}

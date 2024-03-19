@@ -1,0 +1,77 @@
+/* AdminHome.css */
+
+/* Style for the container that holds the plant details */
+.plant-details-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 110%; /* Increase the width of the table */
+    margin-left: -5%; /* Add a negative margin to center the wider table */
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* AdminHome.css */
+  
+  /* Style for the modal popup */
+  .plant-details-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust the width of the popup */
+    max-width: 400px;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .plant-details-popup h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .plant-details-popup p {
+    margin: 10px 0;
+  }
+  
+  /* Style for the close button */
+  .plant-details-popup button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .AdLink{
+    text-decoration: none;
+  }
+  
