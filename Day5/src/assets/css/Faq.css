@@ -1,0 +1,30 @@
+/* Faq.css */
+
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .accordion-button:hover {
+    background-color: #e9ecef;
+  }
+  
+  .accordion-collapse {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px;
+  }
+  
+  .accordion-item:not(:last-child) .accordion-button {
+    border-bottom: none;
+  }
+  
