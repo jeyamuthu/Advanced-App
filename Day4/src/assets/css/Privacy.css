@@ -1,0 +1,20 @@
+.privacy-policy-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.privacy-policy-container h2 {
+    color: #333;
+}
+
+.privacy-policy-container h3 {
+    color: #666;
+    margin-top: 20px;
+}
+
+.privacy-policy-container p {
+    margin-bottom: 10px;
+    margin-left: 5%;
+}

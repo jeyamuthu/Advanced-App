@@ -1,0 +1,61 @@
+.loan-type-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.loan-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.loan-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.loan-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.loan-card h3 {
+    color: #333;
+}
+
+.loan-card p {
+    color: #666;
+}
+/* Styles for the search bar */
+.loan-type-container input[type="text"] {
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+
+/* Styles for the apply button */
+.loan-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loan-card button:hover {
+    background-color: #0056b3;
+}
